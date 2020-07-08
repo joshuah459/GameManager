@@ -1,0 +1,54 @@
+header, .full-width {
+    width: 100%;
+    background: rgb(49, 45, 45);
+    color: white;
+  
+  }
+  footer{
+    text-align: right;
+    color: white;
+    width: 100%;
+    background: rgb(49, 45, 45);
+    position: fixed;  
+    bottom: 0;
+  }
+  .wrap {
+    text-align: left; /* reset text-align for IE */
+    margin: 0 auto; /* Center in other browsers */
+  }
+
+.logo{
+    max-width: 75px;
+    text-align: center;
+}
+
+body{
+    background-image: url("background.gif");
+    background-size: 100vw 100vh;
+
+}
+.bodys{
+    text-align: center;
+}
+
+.hiddens{
+    opacity: 0;
+
+}
+
+.login{
+  background-color: white;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 30px;
+  min-height: 100px;
+}
+.btn{
+  width:120px;
+  display:inline-block;
+}
+
+.boxes{
+  width: 300px;
+  height: 50px;
+}

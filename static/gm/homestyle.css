@@ -1,0 +1,76 @@
+header, .full-width {
+    width: 100%;
+    background: rgb(49, 45, 45);
+    color: white;
+  
+  }
+  footer{
+    text-align: right;
+    color: white;
+    width: 100%;
+    background: rgb(49, 45, 45);
+    position: fixed;  
+    bottom: 0;
+  }
+  .wrap {
+    text-align: left; /* reset text-align for IE */
+    margin: 0 auto; /* Center in other browsers */
+  }
+
+.logo{
+    max-width: 75px;
+    text-align: center;
+}
+
+body{
+    background-image: url("background.gif");
+    background-size: 100vw 100vh;
+
+}
+.bodys{
+    text-align: left;
+}
+
+.hiddens{
+    opacity: 0;
+
+}
+
+.login{
+  background-color: white;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 15px;
+  min-height: 100px;
+}
+.btn{
+  width:120px;
+  display:inline-block;
+}
+
+.boxes{
+  width: 300px;
+  height: 50px;
+}
+
+.gameheader{
+  text-align: center;
+}
+
+.game{
+  display: inline-block;
+  background-color: grey;
+  max-width: 600px;
+  border-radius: 5px;
+}
+.GameName{
+  text-align: left;
+}
+.btnHolder{
+  
+  text-align: right;
+}
+
+.gameID, .template{
+  display: none;
+}
